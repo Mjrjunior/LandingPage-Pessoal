@@ -1,0 +1,123 @@
+@media (max-width: 992px) {
+    .com-texto {
+        padding: 153px 20px;
+    }
+
+    .com-texto p,
+    .tecnologia {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .tecnologia {
+        background-image: none;
+        background-color: black;
+    }
+
+    .contato {
+        background-image: none;
+        background-color: black;
+    }
+
+    .contato .texto {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+}
+
+@media (max-width: 720px) {
+    .ladrilho .grande,
+    .ladrilho .medio {
+        width: 100%;
+    }
+
+    .ladrilho .peq,
+    .ladrilho .peq2 {
+        width: 50%;
+    }
+    
+    .tecnologia {
+        display: block;
+        width: 100%;
+    }
+
+
+    .rodape {
+        background-image: none;
+        background-color: #808080;
+        width: 100%;
+        height: 100%;
+    }
+
+    .rodape a {
+        display: block;
+        text-align: center;
+    }
+
+    .rodape ul {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .rodape ul li {
+        display: block;
+    }
+
+    .rodape .redes-sociais {
+        float: none;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .cabecalho .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li {
+        display: block;
+    }
+
+    .cabecalho nav ul li a {
+        width: 100%;
+        display: block;
+    }
+
+    .painel h2 {
+        font-size: 2.5rem;
+    }
+    
+    .com-texto h2 {
+        font-size: 3rem;
+    }
+
+    .com-texto p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .ladrilho .peq,
+    .ladrilho .peq2 {
+        width: 100%;
+    }
+}
+
+
+
+
+
